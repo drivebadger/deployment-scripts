@@ -27,7 +27,7 @@ fi
 
 DEVICE=`readlink -f /dev/disk/by-id/$DISK |cut -d'/' -f3`
 
-if grep -q "$DEVICE " /proc/mounts; then
+if grep -q "$DEVICE[0-9] " /proc/mounts; then
 	echo "ERROR: disk $DISK is mounted (as device $DEVICE)"
 	exit 1
 fi
