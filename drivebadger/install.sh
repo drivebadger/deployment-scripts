@@ -18,11 +18,16 @@ git clone https://github.com/drivebadger/hook-fstab        $BASE/rw/opt/drivebad
 git clone https://github.com/drivebadger/exclude-windows   $BASE/rw/opt/drivebadger/config/exclude-windows
 git clone https://github.com/drivebadger/exclude-macos     $BASE/rw/opt/drivebadger/config/exclude-macos
 git clone https://github.com/drivebadger/exclude-linux     $BASE/rw/opt/drivebadger/config/exclude-linux
+git clone https://github.com/drivebadger/exclude-oem       $BASE/rw/opt/drivebadger/config/exclude-oem
 git clone https://github.com/drivebadger/exclude-antivirus $BASE/rw/opt/drivebadger/config/exclude-antivirus
 git clone https://github.com/drivebadger/exclude-software  $BASE/rw/opt/drivebadger/config/exclude-software
+git clone https://github.com/drivebadger/exclude-pdf       $BASE/rw/opt/drivebadger/config/exclude-pdf
+git clone https://github.com/drivebadger/exclude-messaging $BASE/rw/opt/drivebadger/config/exclude-messaging
 git clone https://github.com/drivebadger/exclude-devel     $BASE/rw/opt/drivebadger/config/exclude-devel
-git clone https://github.com/drivebadger/exclude-user      $BASE/rw/opt/drivebadger/config/exclude-user
+git clone https://github.com/drivebadger/exclude-digital   $BASE/rw/opt/drivebadger/config/exclude-digital
 git clone https://github.com/drivebadger/exclude-erp       $BASE/rw/opt/drivebadger/config/exclude-erp
+git clone https://github.com/drivebadger/exclude-gaming    $BASE/rw/opt/drivebadger/config/exclude-gaming
+git clone https://github.com/drivebadger/exclude-user      $BASE/rw/opt/drivebadger/config/exclude-user
 git clone https://github.com/drivebadger/compat            $BASE/rw/opt/drivebadger/external/compat
 git clone https://github.com/drivebadger/ext-veracrypt     $BASE/rw/opt/drivebadger/external/ext-veracrypt
 
