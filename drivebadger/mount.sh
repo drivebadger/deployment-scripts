@@ -5,6 +5,11 @@ PASSFILE=/opt/deployment-scripts/config/master-luks-password.txt
 DISK=$1  # ata-SanDisk_SD9SN8W2T00_19359H123456
 PART=$2  # 3
 
+if [ ! -e /dev/disk/by-id/$DISK-part$PART ]; then
+	echo "drive $DISK has probably been reformatted, consider removing it from config/drivebadger-devices.txt file"
+	exit 0
+fi
+
 LABEL=`/opt/deployment-scripts/drivebadger/get-label.sh $DISK`
 PARTITION=`readlink -f /dev/disk/by-id/$DISK-part$PART |cut -d'/' -f3`
 
